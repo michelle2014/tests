@@ -3,9 +3,9 @@ describe('API Tests', () => {
   // secret should be store in .env file, it's here only for the purpose of running the tests locally
   // by somesone else cloning the test repo, the key will be deleted later
 
-  let apiKey = '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'
+  let apiKey = ''
 
-  let wrongApiKey = 'ghp_o1mJovT4TlK3yoQcKnLszEWTf6x2hR0lG7dd'
+  let wrongApiKey = ''
 
   let requestBody = {
     person: {
